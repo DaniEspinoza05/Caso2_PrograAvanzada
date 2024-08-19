@@ -18,7 +18,7 @@ namespace Caso2ProgramacionAvanzada.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Juego()
         {
             return View();
         }

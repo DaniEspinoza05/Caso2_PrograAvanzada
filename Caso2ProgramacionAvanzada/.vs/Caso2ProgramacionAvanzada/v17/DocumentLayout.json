@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Proyectos web\\R4En_Linea\\Caso2_PrograAvanzada\\Caso2ProgramacionAvanzada\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEEB6D1-E9A3-4D24-9038-F6A754AD82C1}|Caso2ProgramacionAvanzada.csproj|c:\\proyectos web\\r4en_linea\\caso2_prograavanzada\\caso2programacionavanzada\\views\\home\\juego.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDEEB6D1-E9A3-4D24-9038-F6A754AD82C1}|Caso2ProgramacionAvanzada.csproj|solutionrelative:views\\home\\juego.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEEB6D1-E9A3-4D24-9038-F6A754AD82C1}|Caso2ProgramacionAvanzada.csproj|c:\\proyectos web\\r4en_linea\\caso2_prograavanzada\\caso2programacionavanzada\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDEEB6D1-E9A3-4D24-9038-F6A754AD82C1}|Caso2ProgramacionAvanzada.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEEB6D1-E9A3-4D24-9038-F6A754AD82C1}|Caso2ProgramacionAvanzada.csproj|c:\\proyectos web\\r4en_linea\\caso2_prograavanzada\\caso2programacionavanzada\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DDEEB6D1-E9A3-4D24-9038-F6A754AD82C1}|Caso2ProgramacionAvanzada.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEEB6D1-E9A3-4D24-9038-F6A754AD82C1}|Caso2ProgramacionAvanzada.csproj|c:\\proyectos web\\r4en_linea\\caso2_prograavanzada\\caso2programacionavanzada\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEEB6D1-E9A3-4D24-9038-F6A754AD82C1}|Caso2ProgramacionAvanzada.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEEB6D1-E9A3-4D24-9038-F6A754AD82C1}|Caso2ProgramacionAvanzada.csproj|c:\\proyectos web\\r4en_linea\\caso2_prograavanzada\\caso2programacionavanzada\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DDEEB6D1-E9A3-4D24-9038-F6A754AD82C1}|Caso2ProgramacionAvanzada.csproj|solutionrelative:wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Proyectos web\\R4En_Linea\\Caso2_PrograAvanzada\\Caso2ProgramacionAvanzada\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Proyectos web\\R4En_Linea\\Caso2_PrograAvanzada\\Caso2ProgramacionAvanzada\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "wwwroot\\css\\styles.css",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-19T20:19:21.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Proyectos web\\R4En_Linea\\Caso2_PrograAvanzada\\Caso2ProgramacionAvanzada\\wwwroot\\js\\script.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\script.js",
+              "ToolTip": "C:\\Proyectos web\\R4En_Linea\\Caso2_PrograAvanzada\\Caso2ProgramacionAvanzada\\wwwroot\\js\\script.js",
+              "RelativeToolTip": "wwwroot\\js\\script.js",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAwHoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-19T20:18:35.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Proyectos web\\R4En_Linea\\Caso2_PrograAvanzada\\Caso2ProgramacionAvanzada\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Proyectos web\\R4En_Linea\\Caso2_PrograAvanzada\\Caso2ProgramacionAvanzada\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T20:17:20.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Proyectos web\\R4En_Linea\\Caso2_PrograAvanzada\\Caso2ProgramacionAvanzada\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Proyectos web\\R4En_Linea\\Caso2_PrograAvanzada\\Caso2ProgramacionAvanzada\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:17:09.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Juego.cshtml",
+              "DocumentMoniker": "C:\\Proyectos web\\R4En_Linea\\Caso2_PrograAvanzada\\Caso2ProgramacionAvanzada\\Views\\Home\\Juego.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Juego.cshtml",
+              "ToolTip": "C:\\Proyectos web\\R4En_Linea\\Caso2_PrograAvanzada\\Caso2ProgramacionAvanzada\\Views\\Home\\Juego.cshtml",
+              "RelativeToolTip": "Views\\Home\\Juego.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T20:16:53.666Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
