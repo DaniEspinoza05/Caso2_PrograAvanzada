@@ -1,32 +1,54 @@
 using Caso2ProgramacionAvanzada.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using Microsoft.EntityFrameworkCore;
 
-namespace Caso2ProgramacionAvanzada.Controllers
+namespace Caso2ProgramacionAvanzada.Controllers;
+
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    private readonly ApplicationDbContext _context;
+
+    public HomeController(ApplicationDbContext context)
     {
-        private readonly ILogger<HomeController> _logger;
+        _context = context;
+    }
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+    public IActionResult Index()
+    {
+        return View();
+    }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
 
-        public IActionResult Juego()
-        {
-            return View();
-        }
+    public IActionResult Historial()
+    {
+        var juegos = _context.Games.Include(g => g.Players).ToList();
+        return View(juegos);
+    }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+
+    public IActionResult Juego()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult GuardarResultado(string ganador, string jugador1, string color1, string jugador2, string color2)
+    {
+        var game = new Game
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+            StartTime = DateTime.Now, // Podría registrar el tiempo de inicio real
+            EndTime = DateTime.Now, // Podría registrar el tiempo de finalización real
+            Winner = ganador,
+            Players = new List<Player>
+            {
+                new Player { Username = jugador1, Color = color1 },
+                new Player { Username = jugador2, Color = color2 }
+            }
+        };
+
+        _context.Games.Add(game);
+        _context.SaveChanges();
+
+        return RedirectToAction("Index");
     }
 }

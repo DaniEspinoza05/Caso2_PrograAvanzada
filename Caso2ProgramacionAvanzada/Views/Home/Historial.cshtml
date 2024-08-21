@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Caso2ProgramacionAvanzada.Models.Game>
+
+<h1>Historial de Juegos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Juego ID</th>
+            <th>Inicio</th>
+            <th>Finalización</th>
+            <th>Ganador</th>
+            <th>Jugadores</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var game in Model)
+        {
+            <tr>
+                <td>@game.Id</td>
+                <td>@game.StartTime</td>
+                <td>@game.EndTime</td>
+                <td>@game.Winner</td>
+                <td>
+                    @foreach (var player in game.Players)
+                    {
+                        <p>@player.Username (@player.Color)</p>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
